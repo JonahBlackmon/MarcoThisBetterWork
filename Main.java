@@ -7,7 +7,6 @@ public class Main {
        a = Integer.parseInt(args[0]);
        b = Integer.parseInt(args[1]);
     } else System.out.println("Error, Invalid Inputs");    
-      GCD.gcd test = new GCD.gcd();
-      System.out.println(test.GCD(a, b));
+      System.out.println(gcd.GCD(a, b));
     }
 }
